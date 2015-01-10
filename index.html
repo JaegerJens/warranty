@@ -37,7 +37,7 @@
 
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Why is it broken?</h3>
+                <h3 class="panel-title">Why does it not work?</h3>
             </div>
 
             <div class="panel-body">
@@ -47,8 +47,39 @@
                         <input type="text" class="form-control" id="defect" placeholder="Describe the defect here">
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">The item broke &hellip;</label>
+                    <div class="col-sm-10">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="reason" id="reason1" value="brokendelivered" checked>
+                               during delivery
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="reason" id="reason2" value="duringinstall">
+                                during installation
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="reason" id="reason3" value="afterusage">
+                                after normal usage
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="reason" id="reason4" value="afteraccident">
+                                after an accident
+                            </label>
+                        </div>
+                    </div>
+                </div>
             </div>
         <div>
+
 
         <div class="panel panel-default">
             <div class="panel-heading">
