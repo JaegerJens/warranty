@@ -32,6 +32,13 @@
                         <input type="text" class="form-control" id="manufacturer" placeholder="Enter manufacturer name here">
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="itemnumber" class="col-sm-2 control-label">Item number</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="itemnumber" placeholder="Enter item number here">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -103,6 +110,37 @@
                 </div>
             </div>
         </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">What warranty do you wish?</div>
+            </div>
+
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">I want &hellip;</label>
+                    <div class="col-sm-10">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="wish" id="wish1" value="replacement" checked>
+                                a replacement
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="wish" id="wish2" value="repair">
+                                the item repaired
+                            </input>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="wish" id="wish3" value="refund">
+                                a refund
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </form>
 
     <script src="lib/jquery-1.11.2/jquery-1.11.2.js"></script>
